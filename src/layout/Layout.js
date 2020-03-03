@@ -1,6 +1,7 @@
 import React from "react"
 import { css, Global } from "@emotion/core"
 import { Final } from "../components"
+import Seo from "../seo/Seo"
 
 const bg = css`
   background-image: url("images/background.svg");
@@ -24,6 +25,7 @@ const Layout = ({ children }) => {
           }
         `}
       />
+      <Seo />
       <main css={bg}>
         {children}
         <Final />
