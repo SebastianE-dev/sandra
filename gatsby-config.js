@@ -30,11 +30,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-emotion`,
     },
-    {
-      resolve: `gatsby-plugin-emotion`,
-    },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+
     {
       resolve: "gatsby-source-wordpress",
       options: {
